@@ -1,0 +1,6 @@
+<p>Buen dia</p>
+<p>
+   #foreach($nombre in $headers.lista)
+    $nombre
+   #end
+</p>
