@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "1ec7b830-8fae-45fa-bb04-1291c2495f8b",
+		"name": "Pruebas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4198017"
+	},
+	"item": [
+		{
+			"name": "Prueba",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"nombre\": \"prueba,para,velocity\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/entrada/restConsumer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"entrada",
+						"restConsumer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
